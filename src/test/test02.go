@@ -47,16 +47,16 @@ func main() {
 	s := "hello wrold!"
 	fmt.Print(s)
 
-	var s1 string = "hello"
+	var s10 string = "hello"
 	//s1[0]="c"		字符串无法修改
-	fmt.Print(s1)
+	fmt.Print(s10)
 
-	sc := []rune(s1)
+	sc := []rune(s10)
 	fmt.Print(sc)
 	sc[0] = 'c'
-	s2 := string(sc)
+	s20 := string(sc)
 
-	fmt.Print("%s\n", s2)
+	fmt.Print("%s\n", s20)
 
 	//多行字符串
 
