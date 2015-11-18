@@ -1,4 +1,5 @@
 package main
+import "fmt"
 
 
 func arvange(xs []float64) (avg float64) {
@@ -17,5 +18,11 @@ func arvange(xs []float64) (avg float64) {
 
 func main() {
 
+	//定义数组
+	var xs = []float64{1.23,3.21,4.23,5.23,5.32}
+
+	avg := arvange(xs)
+
+	fmt.Printf("avg: %f",avg)
 	
 }
