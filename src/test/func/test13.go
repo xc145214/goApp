@@ -18,6 +18,10 @@ func f()(ret int)  {
 	return 0
 }
 
+//多参函数
+func myfunc( arg ...int){
+	fmt.Println(arg)
+}
 
 
 
@@ -29,4 +33,12 @@ func main() {
 	i := f()
 	fmt.Println(i)
 
+
+	myfunc(1,2,3,4,4,5)
+
+
+	//函数作为值
+	a := func() { fmt.Println("hello world!") }
+
+	a()
 }

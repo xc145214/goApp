@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-
+//求平均值
 func arvange(xs []float64) (avg float64) {
 	sum := 0.0
 	switch len(xs) {
